@@ -1,4 +1,4 @@
-# Docker image to setup a chroot ssh
+# Docker image to setup a chroot ssh (for CTF purposes)
 
 Docker image to create a container exposing a ssh service with chroot features.
 

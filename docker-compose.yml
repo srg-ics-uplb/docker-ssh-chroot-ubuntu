@@ -3,5 +3,9 @@ services:
   ssh-chroot:
     build: .
     privileged: true
+    volumes: 
+      - ./chroot_home:/home 
+    environment:
+      CHROOT_USER_HOME_BASEPATH: ./chroot_home
     ports:
       - "2222:22"

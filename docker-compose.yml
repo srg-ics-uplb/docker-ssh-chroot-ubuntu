@@ -1,0 +1,7 @@
+version: '2.1'
+services:
+  ssh-chroot:
+    build: .
+    privileged: true
+    ports:
+      - "2222:22"

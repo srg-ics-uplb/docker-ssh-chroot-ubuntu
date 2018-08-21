@@ -1,7 +1,8 @@
 # Docker image to setup a chroot ssh
 
 Docker image to create a container exposing a ssh service with chroot features.
-Based on: https://github.com/Soletic/hosting-docker-ssh-chroot
+
+**Based on: https://github.com/Soletic/hosting-docker-ssh-chroot**
 
 **Example of usage**
 
